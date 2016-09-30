@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cursoandroid.primeiroapp.exemplo8.MenuIntentActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="always" android:icon="@android:drawable/ic_menu_edit"/>
+    <item android:id="@+id/action_sobre" android:title="@string/action_sobre"
+        android:orderInCategory="101" app:showAsAction="ifRoom" android:icon="@android:drawable/ic_dialog_info"/>
+    <item android:id="@+id/action_intent_abrir_browser" android:title="@string/action_intent_abrir_browser"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/action_intent_ligar_numero" android:title="@string/action_intent_ligar_numero"
+        android:orderInCategory="103" app:showAsAction="never" />
+    <item android:id="@+id/action_intent_enviar_sms" android:title="@string/action_intent_enviar_sms"
+        android:orderInCategory="104" app:showAsAction="never" />
+    <item android:id="@+id/action_intent_compartilhar" android:title="@string/action_intent_compartilhar"
+        android:orderInCategory="105" app:showAsAction="never" />
+</menu>

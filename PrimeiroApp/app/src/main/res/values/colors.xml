@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff313ac0</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ffc0000c</color>
+    <color name="black">#000000</color>
+    <color name="sample_primary">#4590bd</color>
+    <color name="sample_accent">#88bfcb</color>
+    <color name="green">#ff22ff31</color>
+    <color name="navy_blue">#ff00168a</color>
+    <color name="green_light">#ffc0ffbc</color>
+    <color name="vermelho">#ff0000</color>
+    <color name="vermelho_claro">#fa5c5c</color>
+    <color name="vermelho3">#ff4040</color>
+    <color name="vermelho4">#660000</color>
+
+</resources>

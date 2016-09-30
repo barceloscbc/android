@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/sample_primary</item>
+        <item name="colorPrimaryDark">@color/sample_primary</item>
+        <item name="colorAccent">@color/sample_accent</item>
+    </style>
+    <style name="estiloExemplo">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/navy_blue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="estiloExemplo2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/vermelho_claro</item>
+
+    </style>
+
+    <style name="estiloExemplo3">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/vermelho_claro</item>
+
+    </style>
+
+
+</resources>

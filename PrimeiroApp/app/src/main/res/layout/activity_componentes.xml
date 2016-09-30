@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="cursoandroid.primeiroapp.exemplo4.ComponentesActivity">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_txt_windows_phone"
+        android:id="@+id/chkWp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_txt_ios"
+        android:id="@+id/chkIos"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_txt_android"
+        android:id="@+id/chkAndroid"
+        android:checked="false" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/rdSexGroup"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_chk_feminino"
+            android:id="@+id/rdFem"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_chk_masculino"
+            android:id="@+id/rdMasc"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/lbl_sw_not_on"
+        android:textOff="@string/lbl_sw_not_off"
+        android:text="@string/lbl_sw_notificacoes"
+        android:id="@+id/swNotificacoes"
+        android:checked="false" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_btn_valores"
+        android:id="@+id/btnValores" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+
+        android:id="@+id/editText5"
+        android:hint="Senha" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:id="@+id/editText4"
+        android:hint="Telefone" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Primeiro App</string>
+
+    <string name="hello_world">Olá Mundo!</string>
+    <string name="action_settings">Opções</string>
+    <string name="lbl_txt_primeiro_numero">Primeiro Número</string>
+    <string name="lbl_txt_segundo_numero">Segundo Número</string>
+    <string name="lbl_btn_somar">Somar</string>
+
+    <string-array name="lista_exemplos">
+        <item >0 - Ciclo de vida, navegação entre Activities e logCat</item>
+        <item >1 - Calculadora Simples(Interface XML, Java, findViewById, visibility e evento click)</item>
+        <item >2 - Interface LayoutInflater</item>
+        <item >3 - Interface com recursos(strings.xml, colors.xml, estilos e internacionalização)</item>
+        <item >4 - Componentes e eventos</item>
+        <item >5 - Spinner e ListView(simples/customizado)</item>
+        <item >6 - Alertas (Toast e Dialog)</item>
+        <item >7 - WebView</item>
+        <item >8 - Menu e Intents</item>
+        <item >9 - Notificação</item>
+        <item >10 - AlarmManager</item>
+        <item >11 - Persistência com SharedPreferences</item>
+        <item >12 - Persistência com SQLite(CRUD)</item>
+        <item >13 - Webservices + AsyncTask(JSON e download de imagens)</item>
+
+    </string-array>
+    <string name="title_activity_segunda" translatable="false">SegundaActivity</string>
+    <string name="lbl_segunda_Tela" translatable="false">Ir para segunda tela</string>
+    <string name="title_activity_root" translatable="false">Primeiro App</string>
+    <string name="title_activity_calculadora" translatable="false">CalculadoraActivity</string>
+    <string name="lbl_param_seg_act" translatable="false">Parametro para Segunda Activity</string>
+    <string name="lbl_param_rec_act" translatable="false">Parametro enviado da tela 1</string>
+    <string name="lbl_param_rec" translatable="false">Parâmetro recebido da segunda activity</string>
+    <string name="lbl_voltar_tela1" translatable="false">Volar para tela 1</string>
+    <string name="lbl_param_ret_act1" translatable="false">Parametro de retorno para tela 1</string>
+    <string name="title_activity_banco" translatable="false">BancoActivity</string>
+    <string name="title_activity_webservice" translatable="false">WebserviceActivity</string>
+    <string name="title_activity_cadastro_banco" translatable="false">CadastroBancoActivity</string>
+    <string name="title_activity_debug" translatable="false">DebugActivity</string>
+    <string name="title_activity_layout_inflater" translatable="false">LayoutInflaterActivity</string>
+    <string name="title_activity_recursos" translatable="false">RecursosActivity</string>
+    <string name="title_activity_componentes" translatable="false">ComponentesActivity</string>
+
+    <string name="lbl_txt_texto_com_estilo">Texto com estilo</string>
+    <string name="lbl_txt_nome">Nome</string>
+    <string name="lbl_txt_telefone">Telefone</string>
+    <string name="lbl_txt_endereco">Endereço</string>
+    <string name="lbl_btn_salvar">Salvar</string>
+    <string name="lbl_txt_instrucoes">Texto com instruções... ptbr ptbr ptbr ptbr</string>
+    <string name="title_activity_spinner_list" translatable="false">SpinnerListActivity</string>
+    <string name="title_activity_alertas" translatable="false">AlertasActivity</string>
+    <string name="title_activity_web_view" translatable="false">WebViewActivity</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="action_sobre" translatable="false">Sobre</string>
+    <string name="action_site" translatable="false">Site</string>
+    <string name="action_intent_abrir_browser" translatable="false">Abrir browser</string>
+    <string name="action_intent_ligar_numero" translatable="false">Ligar para</string>
+    <string name="action_intent_enviar_sms" translatable="false">Enviar SMS</string>
+    <string name="action_intent_compartilhar" translatable="false">Compartilhar</string>
+    <string name="title_activity_notificacao" translatable="false">NotificacaoActivity</string>
+    <string name="title_activity_mensagem" translatable="false">MensagemActivity</string>
+    <string name="title_activity_alarm" translatable="false">AlarmActivity</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_shared_prefs" translatable="false">SharedPrefsActivity</string>
+    <string name="lbl_txt_windows_phone" translatable="false">Windows Phone</string>
+    <string name="lbl_txt_ios" translatable="false">IOs</string>
+    <string name="lbl_txt_android" translatable="false">Android</string>
+    <string name="lbl_chk_feminino" translatable="false">feminino</string>
+    <string name="lbl_chk_masculino" translatable="false">masculino</string>
+    <string name="lbl_sw_notificacoes" translatable="false">Notificações</string>
+    <string name="lbl_btn_valores" translatable="false">Valores</string>
+    <string name="lbl_sw_not_on" translatable="false">Sim</string>
+    <string name="lbl_sw_not_off" translatable="false">Não</string>
+    <string name="title_activity_teste" translatable="false">teste</string>
+    <string name="title_activity_apagar" translatable="false">apagar</string>
+    <string name="lbl_nome">Nome</string>
+
+
+</resources>
